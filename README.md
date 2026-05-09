@@ -25,3 +25,33 @@ Este projeto foi desenvolvido como parte da atividade avaliativa de Segurança d
 1. Instale a biblioteca necessária:
    ```bash
    pip install cryptography
+
+## Instalação
+
+```bash
+pip install -r requirements.txt
+```
+
+## Execução
+
+```bash
+python main.py
+```
+
+## Executar testes
+
+```bash
+python tests/test_integrity.py
+```
+
+## Fluxo PGP
+1. Assinatura Digital
+2. Criptografia AES
+3. Envelope Digital RSA
+4. Validação da assinatura
+
+## Conceitos de Kurose
+- Confidencialidade
+- Integridade
+- Autenticidade
+- Proteção contra MITM
